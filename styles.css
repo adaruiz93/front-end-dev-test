@@ -1,6 +1,9 @@
-body {
+body, html {
   height: 100%
+  padding: 0;
+  margin: 0;
 }
+
 /* hero image */
 #hero {
   background-image: url("images/hero.jpg");
@@ -8,10 +11,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-}
-
-#hero .container {
-  height: 50vh;
+  height: 500px
 }
 
 /* hero title and button */
@@ -26,7 +26,7 @@ body {
 
 /* hero button */
 button {
-  background-color: #be62e6; /* Green */
+  background-color: #be62e6;
   border: none;
   color: white;
   padding: 10px 24px;
@@ -34,4 +34,12 @@ button {
   text-decoration: none;
   display: inline-block;
   font-size: 10px;
+}
+
+/* logo */
+#logo {
+  position: absolute;
+  height: 100px;
+  width: 150px;
+  float: left;  
 }
