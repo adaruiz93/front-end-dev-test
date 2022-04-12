@@ -1,3 +1,37 @@
-h1 {
-  color: red;
+body {
+  height: 100%
+}
+/* hero image */
+#hero {
+  background-image: url("images/hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#hero .container {
+  height: 50vh;
+}
+
+/* hero title and button */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+/* hero button */
+button {
+  background-color: #be62e6; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
 }
