@@ -1,7 +1,12 @@
-body, html {
-  height: 100%
-  padding: 0;
+/* welcome font */
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+/* rg font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* hero image */
@@ -21,7 +26,7 @@ body, html {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 /* hero button */
@@ -29,7 +34,7 @@ button {
   background-color: #be62e6;
   border: none;
   color: white;
-  padding: 10px 24px;
+  padding: 5px 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -43,3 +48,16 @@ button {
   width: 150px;
   float: left;  
 }
+
+.welcome {
+  font-family: 'Secular One', sans-serif;
+  font-size: 8vh;
+}
+
+.rg {
+  font-family: 'Roboto', sans-serif;
+  font-size: 7vh;
+  letter-spacing: 3px; /*space between letters */
+  margin-top: -12%;
+}
+
