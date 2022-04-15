@@ -49,15 +49,48 @@ button {
   float: left;  
 }
 
+/* welcome title */
 .welcome {
   font-family: 'Secular One', sans-serif;
   font-size: 8vh;
 }
 
+/* rooster grin title */
 .rg {
   font-family: 'Roboto', sans-serif;
   font-size: 7vh;
   letter-spacing: 3px; /*space between letters */
   margin-top: -12%;
+}
+
+/* container for img1 and text */
+.container {
+  display: grid;
+  padding: 2rem;
+  grid-template-columns: 300px 1fr;
+  gap: 1rem;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  font: 500 100%/1.5 system-ui;
+  
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+
+}
+
+@media (max-width: 650px) {
+  .container {
+    display: block;
+    font-size: 80%;
+  }
+  h5 {
+    position: relative;
+    margin: -3rem 0 2rem 1rem;
+    padding: 1rem;
+  }
 }
 
