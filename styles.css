@@ -64,33 +64,80 @@ button {
 }
 
 /* container for img1 and text */
-.container {
+.container-img {
   display: grid;
   padding: 2rem;
   grid-template-columns: 300px 1fr;
   gap: 1rem;
   align-items: center;
   max-width: 800px;
-  margin: 0 auto;
-  font: 500 100%/1.5 system-ui;
-  
+  margin: 0 auto; 
 }
 
+/* img1 */
 img {
   max-width: 100%;
   height: auto;
+  display: flex;
+  justify-content: right;
 
 }
 
+/* responsivness for img1 and text */
 @media (max-width: 650px) {
-  .container {
+  .container-img {
     display: block;
     font-size: 80%;
   }
-  h5 {
+  p {
     position: relative;
     margin: -3rem 0 2rem 1rem;
     padding: 1rem;
   }
 }
 
+/* text for img1 */
+.text-col {
+  color: black;
+}
+
+/* banner container */
+.banner1 {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+/* banner img */
+.banner-img{
+  max-width: 100%;
+  height: auto;
+}
+
+/* banner image button */
+.banner-button {
+  background-color: coral;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  display: inline-block;
+}
+
+/* banner img 1 text */
+.banner-txt {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  display: inline-block;
+  color:rgb(73, 6, 140);
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2px;
+  font-size: 3vh;
+}
+
+/* responsiveness for button and banner img 1 */
+@media (max-width: 650px) {
+  .banner1, .banner-txt {
+    display: block;
+    font-size: 50%;
+}
