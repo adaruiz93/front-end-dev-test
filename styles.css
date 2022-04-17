@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 /* rg font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+/* lorem text */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 
 *{
   margin: 0;
@@ -16,7 +19,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  height: 500px
+  height: 69.5vh;
+  max-width: 100%;
 }
 
 /* hero title and button */
@@ -63,42 +67,29 @@ button {
   margin-top: -12%;
 }
 
-/* container for img1 and text */
-.container-img {
-  display: grid;
-  padding: 2rem;
-  grid-template-columns: 300px 1fr;
-  gap: 1rem;
-  align-items: center;
-  max-width: 800px;
-  margin: 0 auto; 
-}
-
-/* img1 */
+/* makes images resize well when responsive */
 img {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  height: 100%;
   display: flex;
-  justify-content: right;
-
-}
-
-/* responsivness for img1 and text */
-@media (max-width: 650px) {
-  .container-img {
-    display: block;
-    font-size: 80%;
-  }
-  p {
-    position: relative;
-    margin: -3rem 0 2rem 1rem;
-    padding: 1rem;
-  }
 }
 
 /* text for img1 */
-.text-col {
-  color: black;
+.lorem-title {
+  color: rgb(73, 6, 140);
+  text-align: center;
+  padding-top: 2vh;
+  font-family: 'Roboto', sans-serif;
+  font-size: 5vh;
+  letter-spacing: 3px;
+}
+
+.lorem {
+  padding-top: 0.5vh;
+  color: rgb(1, 1, 1);
+  margin-left: 20px;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 /* banner container */
@@ -110,7 +101,7 @@ img {
 
 /* banner img */
 .banner-img{
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -140,4 +131,12 @@ img {
   .banner1, .banner-txt {
     display: block;
     font-size: 50%;
+  }
 }
+
+.col-4 {
+  height: 100px;
+  width: 150px;
+}
+
+
