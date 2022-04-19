@@ -168,7 +168,6 @@ button {
   }
 }
 
-
 /* makes images resize well when responsive */
 img {
   width: 100%;
@@ -396,7 +395,7 @@ img {
 
 /* carousel items */
 .carousel-item {
-  padding: 10vh;
+  padding: 5vh;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
@@ -427,4 +426,11 @@ img {
 .card-footer {
   display: flex;
   justify-content:center;
+}
+
+/* carousel lorem ipsum text */
+.car-lorem {
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
