@@ -258,3 +258,13 @@ img {
   font-size: 4vh;
   font-family: 'Roboto', sans-serif;
 }
+
+.social {
+  height: 10vh;
+  width: 10vw;
+}
+
+.card-footer {
+  display: flex;
+  justify-content:center;
+}
