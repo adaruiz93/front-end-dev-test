@@ -33,6 +33,7 @@
   color: rgb(255, 255, 255);
 }
 
+
 /* hero button */
 button {
   background-color: #be62e6;
@@ -57,6 +58,56 @@ button {
 .welcome {
   font-family: 'Secular One', sans-serif;
   font-size: 8vh;
+  /* fadein effect */
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
 }
 
 /* rooster grin title */
@@ -65,7 +116,58 @@ button {
   font-size: 7vh;
   letter-spacing: 3px; /*space between letters */
   margin-top: -12%;
+  /* fadein effect */
+  animation: fadeIn ease 6s;
+  -webkit-animation: fadeIn ease 6s;
+  -moz-animation: fadeIn ease 6s;
+  -o-animation: fadeIn ease 6s;
+  -ms-animation: fadeIn ease 6s;
 }
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
 
 /* makes images resize well when responsive */
 img {
@@ -239,12 +341,14 @@ img {
   }
 }
 
+/* carousel items */
 .carousel-item {
   padding: 10vh;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
 
+/* rating stars */
 .five-star {
   text-align: center;
   color:tomato;
@@ -252,6 +356,7 @@ img {
   letter-spacing: 2vh;
 }
 
+/* testimonial section */
 .testimonial {
   text-align: center;
   margin: 2vh;
@@ -259,11 +364,13 @@ img {
   font-family: 'Roboto', sans-serif;
 }
 
+/* socials */
 .social {
   height: 10vh;
   width: 10vw;
 }
 
+/* footer */
 .card-footer {
   display: flex;
   justify-content:center;
