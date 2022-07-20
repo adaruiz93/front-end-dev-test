@@ -3,7 +3,7 @@ Rooster Grin Dev Project
 Project hosted at https://roostergrin-project.surge.sh/
 <center>
 <h3>What you technologies you used and why (if you only used html, css, and js please explain any templates or frameworks you may have used i.e. bootstrap)?</h3>
- The technologies that were used were HTML, CSS, JavaScript, Bootsrap, CSS Grid, FontAwesome, and Surge to deploy.
+ The technologies that were used were HTML, CSS, JavaScript, Bootstrap, CSS Grid, FontAwesome, and Surge to deploy.
  
  I decided to use these technologies because I am familiar with them. Other frameworks I would've done this project in would've been React.js.
  Bootstrap was a big help for the carousel part, that is also a reason I decided to use it.
